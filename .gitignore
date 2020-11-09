@@ -1,0 +1,2 @@
+fortran_mods/*.o
+fortran_mods/*.mod
