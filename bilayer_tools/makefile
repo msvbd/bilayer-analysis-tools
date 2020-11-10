@@ -22,22 +22,22 @@ CF =
 .PHONY: clean all
 
 all: clean \
-	bilayer_Dc_Lz_Doverlap \
-	bilayer_Dol_Dc_Lz_N_width \
-	bilayer_realSpace_rigidity \
-	bilayer_realSpace_rigidity_doubleTail
+	 bilayer_Dc_Lz_Doverlap \
+	 bilayer_Dol_Dc_Lz_N_width \
+	 bilayer_realSpace_rigidity \
+	 bilayer_realSpace_rigidity_doubleTail
 
-#bilayer_realSpace_rigidity_doubleTail: bilayer_realSpace_rigidity_doubleTail.f90
-#	$(FC) $(FFDBG) -o $@ $< $(LIBS)
-#	./$@ asdf lam_vt_diCTAC.cs
+bilayer_realSpace_rigidity_doubleTail: bilayer_realSpace_rigidity_doubleTail.f90
+	$(FC) $(FF) -o $@ $< $(LIBS)
+	./$@ asdf lam_vt_diCTAC.cs
 
 %: %.f90
-	$(FC) $(FFDBG) -o $@ $< $(LIBS)
-#	./$@ asdf lam_vt_CTAC.cs
+	$(FC) $(FF) -o $@ $< $(LIBS)
+	./$@ asdf lam_vt_CTAC.cs
 
 clean:
 	rm -f *.mod *.o \
-	 bilayer_Dol_Dc_Lz_N_width \
-	 bilayer_Dc_Lz_Doverlap \
-	 bilayer_realSpace_rigidity \
-	 bilayer_realSpace_rigidity_doubleTail
+	bilayer_Dol_Dc_Lz_N_width \
+	bilayer_Dc_Lz_Doverlap \
+	bilayer_realSpace_rigidity \
+	bilayer_realSpace_rigidity_doubleTail
