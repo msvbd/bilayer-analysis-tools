@@ -27,13 +27,13 @@ all: clean \
 	 bilayer_realSpace_rigidity \
 	 bilayer_realSpace_rigidity_doubleTail
 
-bilayer_realSpace_rigidity_doubleTail: bilayer_realSpace_rigidity_doubleTail.f90
-	$(FC) $(FF) -o $@ $< $(LIBS)
-	./$@ asdf lam_vt_diCTAC.cs
+#bilayer_realSpace_rigidity_doubleTail: bilayer_realSpace_rigidity_doubleTail.f90
+#	$(FC) $(FF) -o $@ $< $(LIBS)
+#	./$@ asdf lam_vt_diCTAC.cs
 
 %: %.f90
 	$(FC) $(FF) -o $@ $< $(LIBS)
-	./$@ asdf lam_vt_CTAC.cs
+#	./$@ asdf lam_vt_CTAC.cs
 
 clean:
 	rm -f *.mod *.o \

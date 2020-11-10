@@ -20,6 +20,16 @@
 !         - Lz_width_dist.png        - plot of distribution of Lz (by Gnuplot)
 !         - N_width_dist.png         - plot of the number of cells with a given width (by Gnuplot)
 !
+! refs:
+!         - ITIM method:
+!               Sega, M., Kantorovich, S. S., Jedlovszky, P., & Jorge, M. (2013).
+!               The generalized identification of truly interfacial molecules (ITIM) algorithm
+!               for nonplanar interfaces. The Journal of chemical physics, 138(4), 044110.
+
+!         - bilayer analysis:
+!               Venturoli, M., Sperotto, M. M., Kranenburg, M., & Smit, B. (2006).
+!               Mesoscopic models of biological membranes. Physics Reports, 437(1-2), 1-54.
+!
 ! Created by: Martin Svoboda (svobodam@icpf.cas.cz )
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

@@ -17,6 +17,11 @@
 !         - Dc_dist.png        - plot of distribution of Dc (by Gnuplot)
 !         - Lz_dist.png        - plot of distribution of Lz (by Gnuplot)
 !
+! refs:
+!         - bilayer analysis:
+!               Venturoli, M., Sperotto, M. M., Kranenburg, M., & Smit, B. (2006).
+!               Mesoscopic models of biological membranes. Physics Reports, 437(1-2), 1-54.
+!
 ! Created by: Martin Svoboda (svobodam@icpf.cas.cz )
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

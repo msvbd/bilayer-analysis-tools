@@ -18,7 +18,14 @@
 !         - PSi_fit.png               - plot of "P(S_i)" with fitting functions (by Gnuplot)
 !
 ! refs:
-!         - 
+!         - real-space rigidity:
+!               Doktorova, M., Harries, D., & Khelashvili, G. (2017). Determination of bending rigidity
+!               and tilt modulus of lipid membranes from real-space fluctuation analysis
+!               of molecular dynamics simulations. Physical Chemistry Chemical Physics, 19(25), 16806-16818.
+!
+!               Johner, N., Harries, D., & Khelashvili, G. (2016). Implementation of a methodology
+!               for determining elastic properties of lipid assemblies from molecular dynamics simulations.
+!               BMC bioinformatics, 17(1), 161.
 !
 ! Created by: Martin Svoboda (svobodam@icpf.cas.cz )
 !
